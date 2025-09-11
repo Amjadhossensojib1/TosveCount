@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "248110440643",
+    "firebase_url": "https://tosvecount-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tosvecount",
+    "storage_bucket": "tosvecount.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248110440643:android:f8139b53422ff73c464276",
+        "android_client_info": {
+          "package_name": "com.amjad.tosvecount"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxttJ02YBzAe7eZcmBJ9xJT6FX4tP1caE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

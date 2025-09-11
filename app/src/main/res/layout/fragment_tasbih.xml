@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
+
+        <RelativeLayout
+            android:id="@+id/firstpate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/imageview1"
+                android:layout_width="410dp"
+                android:layout_height="400dp"
+                android:src="@drawable/design"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="12dp"/>
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="0"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="50dp"/>
+
+        </RelativeLayout>
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="280dp"
+            android:layout_height="240dp"
+            android:src="@drawable/on"
+            android:scaleType="centerCrop"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/firstpate"/>
+
+        <Button
+            android:id="@+id/rbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:textSize="17sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:paddingTop="5dp"
+            android:paddingBottom="10dp"
+            android:drawableEnd="@drawable/ic_restart"
+            android:layout_below="@id/image_view"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

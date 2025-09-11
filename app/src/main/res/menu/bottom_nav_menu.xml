@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/tosve"
+        android:title="Tosve"
+        android:icon="@drawable/ic_tosve"/>
+    <item
+        android:id="@+id/audio"
+        android:title="Quran"
+        android:icon="@drawable/ic_audioquran"/>
+    <item
+        android:id="@+id/doya"
+        android:title="Doa"
+        android:icon="@drawable/ic_doya"/>
+
+</menu>

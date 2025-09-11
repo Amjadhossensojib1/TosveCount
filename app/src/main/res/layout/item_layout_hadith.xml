@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/primary"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="12dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/hadith_arobi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="عَنْ عُمَرَ بْنِ الْخَطَّابِ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِِ"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"/>
+        <TextView
+            android:id="@+id/hadith_bangla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="আমলসমূহ নিয়তের উপর নির্ভরশীল"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"/>
+        <TextView
+            android:id="@+id/hadith_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="— সহীহ বুখারী, সহীহ মুসলিম"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:padding="20dp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
