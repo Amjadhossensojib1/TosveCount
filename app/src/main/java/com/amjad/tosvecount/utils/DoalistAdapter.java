@@ -43,21 +43,20 @@ public class DoalistAdapter extends RecyclerView.Adapter<DoalistAdapter.DoalistV
     }
 
     public class DoalistViewHolder extends RecyclerView.ViewHolder {
-        private TextView doaName;
-        private TextView doaArabic;
-        private TextView doaBangla;
+        private TextView doaName,doaArabic,doaBangla,doaEnglish;
         public DoalistViewHolder(@NonNull View itemView) {
             super(itemView);
             doaName = itemView.findViewById(R.id.doa_name);
             doaArabic = itemView.findViewById(R.id.doa_arobe);
             doaBangla = itemView.findViewById(R.id.doa_banglaa);
+            doaEnglish = itemView.findViewById(R.id.doa_english);
         }
 
         public void bind(Doa doalist) {
             doaName.setText(doalist.getDoaName());
             doaArabic.setText(doalist.getDoaArabic());
             doaBangla.setText(doalist.getDoaBangla());
-
+            doaEnglish.setText(doalist.getDoaEnglish());
 
         }
     }

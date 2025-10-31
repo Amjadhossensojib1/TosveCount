@@ -21,6 +21,25 @@
         android:theme="@style/Theme.TosveCount"
         tools:targetApi="31">
         <activity
+            android:name=".CardDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.prayerDetialsActivity.PrayerdetialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.tasbih.TosveActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TosveCount" />
+        <activity
+            android:name=".ui.sunnahDetials.SunnahdetialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.quranActivity.QuranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.sunnahActivity.SunnahActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.hadithActivity.HadithActivity"
             android:exported="false" />
         <activity

@@ -10,17 +10,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <TextView
             android:id="@+id/hadith_arobi"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="عَنْ عُمَرَ بْنِ الْخَطَّابِ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِِ"
-            android:textStyle="bold"
-            android:textSize="20sp"
+            android:layout_marginTop="5dp"
             android:gravity="center"
-            android:layout_marginTop="15dp"
             android:paddingStart="10dp"
-            android:paddingEnd="10dp"/>
+            android:paddingEnd="10dp"
+            android:text="عَنْ عُمَرَ بْنِ الْخَطَّابِ رضي الله عنه قَالَ: سَمِعْتُ رَسُولَ اللَّهِ ﷺ يَقُولُ: إِنَّمَا الْأَعْمَالُ بِالنِّيَّاتِِ"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
         <TextView
             android:id="@+id/hadith_bangla"
             android:layout_width="match_parent"
@@ -29,8 +32,21 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:gravity="center"
+            android:textColor="@color/black"
             android:paddingStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="5dp"
+            android:paddingEnd="10dp"/>
+        <TextView
+            android:id="@+id/hadith_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Muslim is the brother of another Muslim."
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:paddingStart="10dp"
+            android:layout_marginTop="5dp"
             android:paddingEnd="10dp"/>
         <TextView
             android:id="@+id/hadith_Name"
@@ -39,9 +55,11 @@
             android:text="— সহীহ বুখারী, সহীহ মুসলিম"
             android:textStyle="bold"
             android:textSize="20sp"
+            android:textColor="@color/black"
             android:gravity="center"
-            android:padding="20dp"/>
-
+            android:paddingEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingBottom="20dp"/>
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>

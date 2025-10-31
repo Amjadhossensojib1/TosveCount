@@ -1,17 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+
+    <!-- Base Theme (Light + Dark handled automatically) -->
     <style name="Base.Theme.TosveCount" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-<!--         <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- App Primary Colors -->
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="colorOnPrimary">@color/white</item>
 
+        <!-- Background Colors -->
+        <item name="android:windowBackground">@color/background</item>
 
+        <!-- Status bar setup -->
         <item name="android:statusBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
 
-<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
-<!--        <item name="android:windowTranslucentStatus">false</item>-->
+        <!-- Allow auto dark mode adaptation -->
+        <item name="android:forceDarkAllowed">true</item>
     </style>
 
+    <!-- Rounded Card Style -->
     <style name="TopRoundedCard" parent="">
         <item name="cornerFamily">rounded</item>
         <item name="cornerSizeTopLeft">60dp</item>
@@ -20,5 +27,7 @@
         <item name="cornerSizeBottomRight">0dp</item>
     </style>
 
+    <!-- App Theme -->
     <style name="Theme.TosveCount" parent="Base.Theme.TosveCount" />
+
 </resources>

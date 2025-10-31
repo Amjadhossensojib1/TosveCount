@@ -38,6 +38,15 @@
             android:textColor="@color/black"
             android:textStyle="bold"
             android:gravity="center"/>
+        <TextView
+            android:id="@+id/doa_english"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" All praise is for Allah who gave us life after having caused us to die, and to Him is the resurrection."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
     </LinearLayout>
 
 </com.google.android.material.card.MaterialCardView>

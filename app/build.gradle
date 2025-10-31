@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace 'com.amjad.tosvecount'
-    compileSdk 35
+    compileSdk 36
 
     defaultConfig {
         applicationId "com.amjad.tosvecount"
         minSdk 24
-        targetSdk 35
+        targetSdk 36
         versionCode 1
         versionName "1.0"
 
@@ -42,6 +42,9 @@ dependencies {
     implementation libs.recyclerview
     implementation libs.gridlayout
     implementation libs.firebase.database
+    implementation libs.core
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
     androidTestImplementation libs.espresso.core

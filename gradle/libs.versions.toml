@@ -12,6 +12,10 @@ recyclerview = "1.4.0"
 gridlayout = "1.1.0"
 googleGmsGoogleServices = "4.4.3"
 firebaseDatabase = "22.0.0"
+core = "1.16.0"
+navigationFragment = "2.8.3"
+navigationUi = "2.8.3"
+
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -25,6 +29,9 @@ legacy-support-v4 = { group = "androidx.legacy", name = "legacy-support-v4", ver
 recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
 gridlayout = { group = "androidx.gridlayout", name = "gridlayout", version.ref = "gridlayout" }
 firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+core = { group = "androidx.core", name = "core", version.ref = "core" }
+navigation-fragment = { group = "androidx.navigation", name = "navigation-fragment", version.ref = "navigationFragment" }
+navigation-ui = { group = "androidx.navigation", name = "navigation-ui", version.ref = "navigationUi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

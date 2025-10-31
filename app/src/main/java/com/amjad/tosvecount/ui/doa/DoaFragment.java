@@ -20,7 +20,7 @@ import android.widget.TextView;
 import com.amjad.tosvecount.R;
 import com.amjad.tosvecount.model.DoaCategory;
 import com.amjad.tosvecount.ui.doalist.DoaListActivity;
-import com.amjad.tosvecount.utils.DoaAdapter;
+import com.amjad.tosvecount.utils.DuaAdapter;
 import com.amjad.tosvecount.utils.DoaClickListener;
 
 import java.util.ArrayList;
@@ -32,7 +32,7 @@ public class DoaFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ArrayList<DoaCategory> doalist;
-    private DoaAdapter adapter;
+    private DuaAdapter adapter;
     private TextSwitcher textSwitcher;
 
     private Map<Integer, String[]> weeklyMessages = new HashMap<>();
@@ -248,26 +248,26 @@ public class DoaFragment extends Fragment {
         recyclerView.setLayoutManager(gridLayoutManager);
 
         doalist = new ArrayList<>();
-        doalist.add(new DoaCategory("1", "Daily prayer", "https://cdn-icons-png.flaticon.com/128/17155/17155652.png"));
+        doalist.add(new DoaCategory("1", "Daily prayer", "https://cdn-icons-png.flaticon.com/128/7160/7160662.png"));
         doalist.add(new DoaCategory("2", "Prayer from Al Quran", "https://static.vecteezy.com/system/resources/thumbnails/018/872/217/small/3d-render-illustration-of-al-quran-with-moon-and-star-icon-for-decoration-greeting-card-of-ramadan-and-eid-al-fitr-free-png.png"));
         doalist.add(new DoaCategory("3", "Daily Practice", "https://cdn-icons-png.flaticon.com/128/5173/5173667.png"));
-        doalist.add(new DoaCategory("4", "Other Daily Prayer", "https://cdn-icons-png.flaticon.com/128/18459/18459702.png"));
-        doalist.add(new DoaCategory("5", "Prayer related Dua", "https://cdn-icons-png.flaticon.com/128/2320/2320051.png"));
-        doalist.add(new DoaCategory("6", "Prayer of the Prophet", "https://cdn-icons-png.flaticon.com/128/2652/2652688.png"));
-        doalist.add(new DoaCategory("7", "Asking Prayer", "https://cdn-icons-png.flaticon.com/128/10911/10911449.png"));
-        doalist.add(new DoaCategory("8", "Prayer of worship", "https://cdn-icons-png.flaticon.com/128/7827/7827412.png"));
+        doalist.add(new DoaCategory("4", "Other Daily Prayer", "https://cdn-icons-png.flaticon.com/128/15788/15788481.png"));
+        doalist.add(new DoaCategory("5", "Prayer related Dua", "https://cdn-icons-png.flaticon.com/128/13534/13534362.png"));
+        doalist.add(new DoaCategory("6", "Prayer of the Prophet", "https://cdn-icons-png.flaticon.com/128/15633/15633797.png"));
+        doalist.add(new DoaCategory("7", "Asking Prayer", "https://cdn-icons-png.flaticon.com/128/4682/4682976.png"));
+        doalist.add(new DoaCategory("8", "Prayer of worship", "https://cdn-icons-png.flaticon.com/128/9991/9991939.png"));
         doalist.add(new DoaCategory("9", "Dua of Quran recitation", "https://cdn-icons-png.flaticon.com/128/5173/5173667.png"));
-        doalist.add(new DoaCategory("10", "Prayer for purity of heart", "https://cdn-icons-png.flaticon.com/128/10127/10127009.png"));
+        doalist.add(new DoaCategory("10", "Prayer for purity of heart", "https://cdn-icons-png.flaticon.com/128/4338/4338040.png"));
         doalist.add(new DoaCategory("11", "Protection Prayer", "https://cdn-icons-png.flaticon.com/128/10741/10741215.png"));
-        doalist.add(new DoaCategory("12", "Waking Night Prayer", "https://cdn-icons-png.flaticon.com/128/15387/15387066.png"));
+        doalist.add(new DoaCategory("12", "Waking Night Prayer", "https://cdn-icons-png.flaticon.com/128/9995/9995819.png"));
         doalist.add(new DoaCategory("13", "Night Prayer", "https://cdn-icons-png.flaticon.com/128/384/384420.png"));
-        doalist.add(new DoaCategory("14", "Shalat Prayer", "https://cdn-icons-png.flaticon.com/128/10741/10741226.png"));
+        doalist.add(new DoaCategory("14", "Shalat Prayer", "https://cdn-icons-png.flaticon.com/128/5862/5862637.png"));
         doalist.add(new DoaCategory("15", "Hajj", "https://cdn-icons-png.flaticon.com/128/804/804317.png"));
-        doalist.add(new DoaCategory("16", "Prayer from Kutubussittah", "https://cdn-icons-png.flaticon.com/128/16839/16839492.png"));
-        doalist.add(new DoaCategory("17", "Dua for exam and job", "https://cdn-icons-png.flaticon.com/128/16083/16083942.png"));
-        doalist.add(new DoaCategory("18", "Other Prayer", "https://cdn-icons-png.flaticon.com/128/10171/10171370.png"));
+        doalist.add(new DoaCategory("16", "Prayer from Kutubussittah", "https://cdn-icons-png.flaticon.com/128/3858/3858880.png"));
+        doalist.add(new DoaCategory("17", "Dua for exam and job", "https://cdn-icons-png.flaticon.com/128/2436/2436636.png"));
+        doalist.add(new DoaCategory("18", "Other Prayer", "https://cdn-icons-png.flaticon.com/128/4264/4264369.png"));
 
-        adapter = new DoaAdapter(doalist, new DoaClickListener() {
+        adapter = new DuaAdapter(doalist, new DoaClickListener() {
             @Override
             public void onDoaClick(DoaCategory doaCategory) {
                 Intent intent = new Intent(getContext(), DoaListActivity.class);

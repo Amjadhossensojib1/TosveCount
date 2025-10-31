@@ -7,12 +7,14 @@ public class Doa implements Serializable {
     private String doaName;
     private String doaArabic;
     private String doaBangla;
+    private String doaEnglish;
 
-    public Doa(String catId, String doaName, String doaArabic, String doaBangla) {
+    public Doa(String catId, String doaName, String doaArabic, String doaBangla, String doaEnglish) {
         this.catId = catId;
         this.doaName = doaName;
         this.doaArabic = doaArabic;
         this.doaBangla = doaBangla;
+        this.doaEnglish = doaEnglish;
     }
 
     public String getCatId() {
@@ -45,5 +47,13 @@ public class Doa implements Serializable {
 
     public void setDoaBangla(String doaBangla) {
         this.doaBangla = doaBangla;
+    }
+
+    public String getDoaEnglish() {
+        return doaEnglish;
+    }
+
+    public void setDoaEnglish(String doaEnglish) {
+        this.doaEnglish = doaEnglish;
     }
 }

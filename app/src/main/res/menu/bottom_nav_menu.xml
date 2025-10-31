@@ -11,10 +11,15 @@
     <item
         android:id="@+id/audio"
         android:title="Quran"
-        android:icon="@drawable/ic_audioquran"/>
+        android:icon="@drawable/quran"/>
     <item
         android:id="@+id/doya"
         android:title="Doa"
         android:icon="@drawable/ic_doya"/>
+    <item
+        android:id="@+id/quran"
+        android:title="Quran"
+        android:icon="@drawable/redquran"/>
+
 
 </menu>

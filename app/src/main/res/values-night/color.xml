@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Colors (Dark Mode) -->
+    <color name="primaryText">#FFFFFF</color> <!-- এখানে শুধু লেখার রঙ সাদা -->
+    <color name="secondaryText">#BBBBBB</color>
+
+    <!-- Background Colors (same design থাকবে) -->
+    <color name="background">#FFFFFF</color> <!-- আগের মতোই সাদা ব্যাকগ্রাউন্ড -->
+    <color name="bgc">#131631</color>
+    <color name="card_color">#D4D4DB</color>
+
+    <!-- অন্যান্য কালার একই -->
+    <color name="luancher_color">#113E68</color>
+    <color name="navebutton_color">#1C2243</color>
+    <color name="primary">#EBE2E2</color>
+    <color name="blue">#03A9F4</color>
+    <color name="green">#023A06</color>
+    <color name="orange">#E09E52</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Black & White -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -22,7 +22,7 @@
             android:text="Muqodimah"
             android:textSize="15sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="@color/primaryText"
             android:paddingTop="28dp"
             android:paddingBottom="15dp"
             android:paddingLeft="10dp"/>

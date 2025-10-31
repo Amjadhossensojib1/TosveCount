@@ -25,6 +25,10 @@
         android:id="@+id/nav_rate_us"
         android:title="Rate Us"
         android:icon="@drawable/ic_star" />
+    <item
+        android:id="@+id/nav_theme"
+        android:title="Theme"
+        android:icon="@drawable/dark_mode" />
 
     <item
         android:id="@+id/nav_exit"
